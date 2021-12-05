@@ -3,6 +3,7 @@
 import argparse
 from dataclasses import dataclass
 
+
 @dataclass
 class Board:
     """Class for keeping track of the values and hits on a bingo board"""
@@ -109,7 +110,8 @@ def part1(input_file):
                         boards.append(Board(current_board))  # add it to the list
                     current_board = []  # clear out the current board
                 else:
-                    current_board.append([int(j) for j in line.split(" ") if j != ""])  # process the line into integers and add them to the current board
+                    current_board.append([int(j) for j in line.split(" ") if
+                                          j != ""])  # process the line into integers and add them to the current board
         if current_board:  # if there is a board already made
             boards.append(Board(current_board))  # add it to the list
     winning_board = ""
