@@ -33,8 +33,8 @@ def part2(input_name):
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Advent of Code Day 1 challenge: Sonar Sweep")  # argparser setup
-    parser.add_argument("input", type=str, help="A file containing the sonar values")
+    parser = argparse.ArgumentParser(description="Advent of Code Day 2 challenge: Dive!")  # argparser setup
+    parser.add_argument("input", type=str, help="A file containing the navigation commands")
     args = parser.parse_args()
     depth1, distance1 = part1(args.input)
     print(f"Part one results: Travelled {depth1} deep over {distance1} distance for a final result of "

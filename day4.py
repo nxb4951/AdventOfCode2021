@@ -130,8 +130,8 @@ def part1(input_file):
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Advent of Code Day 1 challenge: Sonar Sweep")  # argparser setup
-    parser.add_argument("input", type=str, help="A file containing the sonar values")
+    parser = argparse.ArgumentParser(description="Advent of Code Day 4 challenge: Giant Squid")  # argparser setup
+    parser.add_argument("input", type=str, help="A file containing the Bingo calls and boards")
     args = parser.parse_args()
 
     winner1, score1 = part1(args.input)

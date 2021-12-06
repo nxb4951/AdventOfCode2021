@@ -51,8 +51,8 @@ def part2(input_file):
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Advent of Code Day 1 challenge: Sonar Sweep")  # argparser setup
-    parser.add_argument("input", type=str, help="A file containing the sonar values")
+    parser = argparse.ArgumentParser(description="Advent of Code Day 3 challenge: Binary Diagnostic")  # argparser setup
+    parser.add_argument("input", type=str, help="A file containing the binary readouts")
     args = parser.parse_args()
 
     gamma1, epsilon1 = part1(args.input)
