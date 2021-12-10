@@ -59,7 +59,6 @@ def part2(input_file):
             elif closers[0] == ch:  # if the bracket is the one we expect
                 closers = closers[1:]
             else:
-                print(f"Error on line {index}: Expected {closers[0]}, got {ch}")
                 errors += ch
                 has_error = True
                 break
