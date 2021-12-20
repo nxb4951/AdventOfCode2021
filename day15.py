@@ -151,7 +151,7 @@ def part1(input_file):
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Advent of Code Day 14 challenge: Extended Polymerization")
+    parser = argparse.ArgumentParser(description="Advent of Code Day 15 challenge: Chiton")
     # argparser setup
     parser.add_argument("input", type=str, help="A file containing the danger levels at each coordinate")
     args = parser.parse_args()
